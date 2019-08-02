@@ -1,0 +1,25 @@
+body {
+    background: url("./imagenes/images.jpg");
+}
+
+header {
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    width: 100%;
+    background-color: black;
+}
+
+.container {
+    background-color: rgb(172, 98, 98);
+    padding: 60px;
+}
+
+.container.dos {
+    max-width: 700px;
+    background-color: rgb(124, 124, 204);
+}
+
+.btn {
+    border-radius: 0px;
+}

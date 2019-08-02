@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/medico.css">
+    <script src="./js/medico.js"></script>
+    <script src="./Routing/Routing.js"></script>
+    <script>
+        function validacion() {
+            var elemento = e.target;
+            elemento.style.background = 'FFDDDD';
+        }
+    </script>
+    <title>Document</title>
+</head>
+
+<body>
+
+    <header>
+        <button class="btn btn-secondary" id="principal">Ejemplo clase</button>
+        <button class="btn btn-secondary" id="medico">Formulario Medico</button>
+        <button class="btn btn-secondary" id="empleado">Formulario Empleado</button>
+        <button class="btn btn-secondary" id="Hotel">Formulario Hotel</button>
+        <button class="btn btn-secondary" id="curso">Formulario Curso en Linea</button>
+        <button class="btn btn-secondary" id="vehiculo">Formulario Vehiculo</button>
+    </header>
+
+
+
+    <div class="container">
+        <div class="container dos">
+
+
+            <form action="">
+
+                <div class="form-group">
+                    <label for=""><strong>Nombre</strong></label>
+                    <input type="text" class="form-control" id="nombre" placeholder="Ingresa tu nombre">
+                </div>
+
+                <div class="form-group">
+                    <label for=""><strong>Apellido</strong></label>
+                    <input id="apellido" type="text" class="form-control" placeholder="Ingresa tu apellido">
+                </div>
+                <div class="form-group">
+                    <label for=""><strong>Edad</strong></label>
+                    <input type="number" id="edad" class="form-control" placeholder="Ingresa tu edad">
+                </div>
+
+                <div class="form-group">
+                    <label for=""><strong>Seleccione un genero</strong></label>
+                    <select name="" id="genero" class="form-control">
+                            <option value="">Seleccione una opcion</option>
+                            <option value="">H</option>
+                            <option value="">M</option> 
+                        </select>
+                </div>
+
+                <div class="form-group col-md-6 d-inline-block">
+                    <label for=""><strong>Estatura</strong></label>
+                    <input type="number" id="estatura" class="form-control" placeholder="Estatura en cm">
+                </div>
+
+                <div class="form-group col-md-5 d-inline-block">
+                    <label for=""><strong>Peso</strong></label>
+                    <input type="number" id="peso" class="form-control" placeholder="Peso en lbs">
+                </div>
+
+                <div class="form-group">
+                    <label for=""><strong>Padecimiento Medico</strong></label>
+                    <input type="text" id="padecimiento" class="form-control" placeholder="Ingresa su enfermedad">
+                </div>
+
+                <div class="form-group">
+                    <label for=""><strong>Alergia</strong></label>
+                    <input type="text" id="alergia" class="form-control" placeholder="tipo de alergia">
+                </div>
+
+                <div class="form-group">
+                    <label for=""><strong>Reacciones</strong></label>
+                    <input type="text" id="reacciones" class="form-control" placeholder="tipo de reaccion">
+                </div>
+
+                <div class="form-group">
+                    <label for=""><strong>Grupo Sanguineo</strong></label>
+                    <input type="text" id="sangre" class="form-control" placeholder="Grupo Sanguineo">
+                </div>
+                <input type="button" id="enviar" value="ingresar">
+
+            </form>
+        </div>
+
+    </div>
+
+</body>
+
+</html>

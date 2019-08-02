@@ -1,0 +1,22 @@
+header {
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    width: 100%;
+    background-color: black;
+}
+
+.container {
+    background-color: transparent;
+    padding: 60px;
+}
+
+.container.dos {
+    max-width: 700px;
+    background-color: rgb(87, 228, 221);
+    border-radius: 5px;
+}
+
+.btn {
+    margin: 10px;
+}
